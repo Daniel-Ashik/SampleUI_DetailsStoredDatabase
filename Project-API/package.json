@@ -1,0 +1,22 @@
+{
+  "name": "project-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bin/env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "global": "^4.4.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "needle": "^3.3.1",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1"
+  }
+}

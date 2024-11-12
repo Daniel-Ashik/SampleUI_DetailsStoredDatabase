@@ -1,0 +1,64 @@
+#atag{
+    color: rgb(118, 118, 214);
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#atag:hover{
+    color: black;
+    text-decoration: underline 3px;
+}
+#nav-total{
+    background-color: thistle;
+}
+#footer-total{
+    background-color: thistle;
+}
+#intro-home-para{
+    text-indent: 60px;
+    text-align: justify;
+    padding: 60px;
+    font-size: 20px;
+    color: rgb(118, 118, 214);
+    margin-top: 50px;
+    font-family:Verdana , Tahoma, sans-serif;
+}
+
+#about-card{
+    /* position: absolute; */
+    left: 35px;
+    top: 95px;
+}
+#card-abt{
+    color: red;
+}
+#about-subpara{
+    text-align: justify;
+    text-indent: 60px;
+    color: gray;
+}
+#about-subpara:hover{
+    color: rgb(71, 35, 35);
+}
+#project-topics{
+    color: tomato;
+}
+#details-input{
+    margin-left: 100px;
+}
+#submit-btn{
+    background-color: red;
+}
+#submit-btn:hover{
+    background-color: green;
+}
+
+@media  screen and (min-width:992px){
+    #aboutbackground-image{
+        background-image: url('aboutbackground.jpg');
+        background-repeat: no-repeat;
+        position: relative;
+        height: 85vh;
+    }
+    
+}
