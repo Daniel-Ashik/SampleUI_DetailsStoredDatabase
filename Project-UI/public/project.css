@@ -52,6 +52,56 @@
 #submit-btn:hover{
     background-color: green;
 }
+element {
+}
+#intro-home-para {
+  text-indent: 60px;
+
+  text-align: justify;
+
+  padding: 60px;
+
+  font-size: 20px;
+
+  color: rgb(118, 118, 214);
+
+  margin-top: 50px;
+
+  font-family: Verdana , Tahoma, sans-serif;
+
+}
+#intro-home-para {
+  text-indent: 60px;
+
+  text-align: justify;
+
+  padding: 60px;
+
+  font-size: 20px;
+
+  color: rgb(118, 118, 214);
+
+  margin-top: 50px;
+
+  font-family: Verdana , Tahoma, sans-serif;
+
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+
+}
+/* .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+} */
 
 @media  screen and (min-width:992px){
     #aboutbackground-image{
@@ -59,6 +109,7 @@
         background-repeat: no-repeat;
         position: relative;
         height: 85vh;
+        /* width: 100%; */
     }
     
 }
