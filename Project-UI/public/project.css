@@ -1,12 +1,8 @@
-#atag{
+#atagA,#atagH,#atagP,#atagC{
     color: rgb(118, 118, 214);
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
-}
-#atag:hover{
-    color: black;
-    text-decoration: underline 3px;
 }
 #nav-total{
     background-color: thistle;

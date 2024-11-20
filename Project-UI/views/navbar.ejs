@@ -21,21 +21,28 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav w-100 d-flex justify-content-around">
                     <a class="nav-link" href="/">
-                        <span id="atag">Home</span>
+                        <span id="atagH" onclick="clickColor('atagH')">Home</span>
                     </a>
                     <a class="nav-link" href="about">
-                        <span id="atag">About</span>
+                        <span id="atagA" onclick="clickColor('atagA')">About</span>
                     </a>
                     <a class="nav-link" href="project">
-                        <span id="atag">Project</span>
+                        <span id="atagP" onclick="clickColor('atagA')">Project</span>
                     </a>
                     <a class="nav-link" href="contact">
-                        <span id="atag">Contact</span>
+                        <span id="atagC" onclick="clickColor('atagC')">Contact</span>
                     </a>
                 </div>
             </div>
         </div>
     </nav>
 </body>
+<script>
+    function clickColor(id) {
+        var a = document.getElementById(id)
+        a.style.color = 'black'
+    }
+</script>
+<script src="project.js"></script>
 
 </html>

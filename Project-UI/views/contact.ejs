@@ -48,7 +48,7 @@
             </div>
         </div>
         <%- include('footer')%>
-        
+
             <script>
                 $('#submit-btn').on('click', function (e) {
                     e.preventDefault()
@@ -63,22 +63,22 @@
                     // }else{
                     //     alert ('Details Stored Successfully!')
                     // }
-                    if(name.length<5){
+                    if (name.length < 5) {
                         alert('Name must entered 5 characters')
                         return
                     }
-                    if(phone.length !==5 || isNaN(phone)){
+                    if (phone.length !== 5 || isNaN(phone)) {
                         alert('Phone No must entered 5 numbers')
                         return
                     }
-                    if(email.length < 5 || !email.includes('@')){
+                    if (email.length < 5 || !email.includes('@')) {
                         alert('Email must entered 5 characters')
                         return
                     }
-                    let data={
-                        name:name,
-                        phone:phone,
-                        email:email
+                    let data = {
+                        name: name,
+                        phone: phone,
+                        email: email
                     }
 
                     $.ajax({
@@ -99,7 +99,10 @@
                         }
                     })
                 })
+                var navColor = document.getElementById('atagC')
+                navColor.style.color = 'black'
             </script>
 </body>
 <script src="project.js"></script>
+
 </html>
