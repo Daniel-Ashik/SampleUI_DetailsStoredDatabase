@@ -98,11 +98,13 @@ element {
   box-sizing: border-box;
 
 }
-/* .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-} */
-
+.row {
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0rem !important;
+}
+#body{
+    overflow-y: hidden;
+}
 @media  screen and (min-width:992px){
     #aboutbackground-image{
         background-image: url('aboutbackground.jpg');
